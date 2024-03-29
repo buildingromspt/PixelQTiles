@@ -13,5 +13,12 @@ Usage
 -----
 1. Install the app. An APK might be available in 
 https://github.com/ruimrb/PixelQTiles/releases/
-2. Give the app Secure.Settings permission through ADB. Locking the screen while retaining biometric unlock is only possible with an acessibility service. Giving the app this permission allows it to enable the acessibility service, lock the screen and imediately disable the acessibility service saving battery and improving smoothness. The code is "adb shell pm grant com.buildingromspt.lockandnfc android.permission.WRITE_SECURE_SETTINGS". If you dont know how to use ADB here is a good link https://www.xda-developers.com/install-adb-windows-macos-linux/
-4. Pull down the Quick Settings pane, click the pencil icon and choose any of the quicksetting tiles provided.
+
+
+2. Give the app Secure.Settings permission through ADB.
+Locking the screen while retaining biometric unlock is only possible with an acessibility service. Giving the app this permission allows it to enable the acessibility service, lock the screen and imediately disable the acessibility service saving battery and improving smoothness.
+The code is "adb shell pm grant com.buildingromspt.lockandnfc android.permission.WRITE_SECURE_SETTINGS".
+If you dont know how to use ADB here is a good link https://www.xda-developers.com/install-adb-windows-macos-linux/
+
+
+3. Pull down the Quick Settings pane, click the pencil icon and choose any of the quicksetting tiles provided.
