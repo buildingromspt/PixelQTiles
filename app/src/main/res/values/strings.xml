@@ -1,0 +1,23 @@
+<resources>
+    <!-- Nome da app na lista de Apps e no launcher -->
+    <string name="appname">Lock</string>
+    <!-- Nome na tile para bloquear o ecrã -->
+    <string name="lock_tile_label">Lock</string>
+    <!-- Descricao do servico de acessibilidade -->
+    <string name="accessibility_service_description">An accessibility service to lock the screen from the Homescreen or the Quick Settings tile.</string>
+    <!-- Nome da tile NFC -->
+    <string name="nfc_tile_label">NFC</string>
+    <!-- Nome da tile WiFi -->
+    <string name="wifi_tile_label">Wi-Fi</string>
+    <!-- Tile com WiFi On desconetado -->
+    <string name="wifi_tile_on">Not connected</string>
+    <!-- Tile com WiFi On conectado -->
+    <string name="wifi_tile_connected">Connected</string>
+    <!-- Tile com WiFi off -->
+    <string name="wifi_tile_off">Off</string>
+    <string name="bluetooth_tile_label">Bluetooth</string>
+    <string name="bt_tile_off">Off</string>
+    <string name="bt_tile_search">On</string>
+    <string name="bt_tile_on">Connected</string>
+
+</resources>

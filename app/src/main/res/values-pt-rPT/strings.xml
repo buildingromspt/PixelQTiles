@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lock_tile_label">Bloquear</string>
+    <string name="accessibility_service_description">Um serviço de acessibilidade que bloqueia o ecrã a partir do atalho do ecrã principal ou do ecrã de definições rápidas.</string>
+    <string name="nfc_tile_label">NFC</string>
+    <string name="wifi_tile_label">Wi-Fi</string>
+    <string name="wifi_tile_on">Sem redes</string>
+    <string name="wifi_tile_connected">Ligado</string>
+    <string name="wifi_tile_off">Desligado</string>
+    <string name="appname">Bloquear</string>
+    <string name="bluetooth_tile_label">Bluetooth</string>
+    <string name="bt_tile_off">Desligado</string>
+    <string name="bt_tile_search">Ligado</string>
+    <string name="bt_tile_on">Conectado</string>
+</resources>
