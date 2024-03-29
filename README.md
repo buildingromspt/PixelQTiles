@@ -1,26 +1,17 @@
-Quick Settings Lock for Android
+PixelQTiles for Android
 ===============================
 
-This small Android app adds a *Lock Screen* tile to your Quick Settings pane.
+An app that readds functionality to Pixel devices.
+
+The app allows the following:
+ - Adds a shortcut to lock the screen from the app drawer (and homescreen if you move the shortcut there) and a quicksettings tile for that while allowing unlock with fingerprint or face unlock (needs Secure.Settings permission - see below).
+ - Adds a quicksettings tile that directly controls WiFi (needs location permission but not precise location).
+ - Adds a quicksettings tile that directly controls NFC.
+ - Adds a quicksettings tile that directly controls Bluetooth (needs nearby devices location).
 
 Usage
 -----
-
-This app requires Android 9 (Pie) or newer.  The Accessibility API used by this
-app was only added in that version.
-
-1. Install the app. An APK might be available in the
-   [Releases](https://github.com/Kwpolska/QuickSettingsLock/releases) section.
-2. Go to Settings → Accessibility and enable the QuickSettingsLock service.
-   This service can only access events from itself, no other information about
-   your device will be processed by the app.
-3. Pull down the Quick Settings pane, click the pencil icon, and drag the Lock
-   Screen tile to the upper part of the screen. Place it anywhere you like.
-
-License
--------
-
-Copyright © 2019, Chris Warrick.
-All rights reserved.
-
-Licensed under the 3-clause BSD license.
+1. Install the app. An APK might be available in 
+https://github.com/ruimrb/PixelQTiles/releases/
+2. Give the app Secure.Settings permission through ADB. Locking the screen while retaining biometric unlock is only possible with an acessibility service. Giving the app this permission allows it to enable the acessibility service, lock the screen and imediately disable the acessibility service saving battery and improving smoothness. The code is "adb shell pm grant com.buildingromspt.lockandnfc android.permission.WRITE_SECURE_SETTINGS". If you dont know how to use ADB here is a good link https://www.xda-developers.com/install-adb-windows-macos-linux/
+4. Pull down the Quick Settings pane, click the pencil icon and choose any of the quicksetting tiles provided.
