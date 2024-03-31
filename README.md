@@ -20,5 +20,6 @@ Locking the screen while retaining biometric unlock is only possible with an ace
 The code is "adb shell pm grant com.buildingromspt.lockandnfc android.permission.WRITE_SECURE_SETTINGS".
 If you dont know how to use ADB here is a good link https://www.xda-developers.com/install-adb-windows-macos-linux/
 
+3. Manually give the app the remainig permission by long pressing the icon and choosing App info -> Permissions. The app needs Location permission to give the Wi-Fi network name (you have to give the "always allow" but you can disable the high precision setting. Nearby devices permission is needed to control Bluetooth.
 
-3. Pull down the Quick Settings pane, click the pencil icon and choose any of the quicksetting tiles provided.
+4. Pull down the Quick Settings pane, click the pencil icon and choose any of the quicksetting tiles provided.
